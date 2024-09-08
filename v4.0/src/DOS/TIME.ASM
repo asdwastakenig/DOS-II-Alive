@@ -194,7 +194,7 @@ procedure   DATE16,NEAR
 	OR	CL,DH			;Combine seconds with hours and minutes
 	MOV	DX,CX
 ;
-; WARNING!  MONTH and YEAR must be adjacently allocated
+; WARNING!  MONTH and YEAR must be adjacently allocated  if you can read this good luck :3
 ;
 	MOV	AX,WORD PTR [MONTH]	;Fetch month and year
 	MOV	CL,4
